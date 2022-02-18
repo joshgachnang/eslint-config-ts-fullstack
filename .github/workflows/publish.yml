@@ -30,10 +30,6 @@ jobs:
       - run: git config --global user.email "github-cd-bot@nang.io"
       # upgrade npm version in package.json to the tag used in the release.
       - run: npm version ${{ github.event.release.tag_name }}
-      # build the project
-      - run: yarn build
-      # run tests just in case
-      - run: yarn test
       # publish to NPM -> there is one caveat, continue reading for the fix
       - run: npm publish
         env:
