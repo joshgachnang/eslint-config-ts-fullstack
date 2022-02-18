@@ -1,0 +1,25 @@
+{
+  "name": "eslint-fullstack",
+  "version": "0.1.0",
+  "description": "An eslint and prettier set up for fullstack dev: Node, React, and React Native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshgachnang/eslint-fullstack.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "react",
+    "react-native"
+  ],
+  "author": "Josh Gachnang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgachnang/eslint-fullstack/issues"
+  },
+  "homepage": "https://github.com/joshgachnang/eslint-fullstack#readme"
+}
