@@ -4,7 +4,8 @@
   "description": "An eslint and prettier set up for fullstack dev: Typescript, Node, React, and React Native.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "lint": "eslint index.js"
   },
   "exports": {
     ".": "./index.js",
