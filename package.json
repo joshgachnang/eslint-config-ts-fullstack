@@ -1,10 +1,13 @@
 {
-  "name": "eslint-fullstack",
+  "name": "eslint-config-ts-fullstack",
   "version": "0.1.0",
-  "description": "An eslint and prettier set up for fullstack dev: Node, React, and React Native.",
+  "description": "An eslint and prettier set up for fullstack dev: Typescript, Node, React, and React Native.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
+  },
+  "exports": {
+    ".": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -14,12 +17,47 @@
     "eslint",
     "prettier",
     "react",
-    "react-native"
+    "react-native",
+    "typescript"
   ],
   "author": "Josh Gachnang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/joshgachnang/eslint-fullstack/issues"
   },
-  "homepage": "https://github.com/joshgachnang/eslint-fullstack#readme"
+  "homepage": "https://github.com/joshgachnang/eslint-fullstack#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.25.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-developit": "^1.2.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-lodash": "^7.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.7.0",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.25.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-developit": "^1.2.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-lodash": "^7.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.7.0",
+    "typescript": "^4.1.5"
+  }
 }
