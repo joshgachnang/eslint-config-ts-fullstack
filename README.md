@@ -35,3 +35,19 @@ Add:
      },
      
 Note: Even if you aren't using React in the project (for example, your API), add this to suppress a warning.
+
+# Usage
+
+Add to your NPM scripts in package.json:
+
+    "scripts": {
+      ...
+      "lint": "eslint --fix \"src/**/*.ts*\"",
+      "lintfix": "eslint --fix \"src/**/*.ts*\"",
+    }
+
+Then run:
+
+    yarn lintfix
+    
+    yarn lint
