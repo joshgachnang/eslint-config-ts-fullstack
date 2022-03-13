@@ -42,7 +42,7 @@ Add to your NPM scripts in package.json:
 
     "scripts": {
       ...
-      "lint": "eslint --fix \"src/**/*.ts*\"",
+      "lint": "eslint \"src/**/*.ts*\"",
       "lintfix": "eslint --fix \"src/**/*.ts*\"",
     }
 
