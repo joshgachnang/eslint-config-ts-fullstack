@@ -31,7 +31,7 @@ Add:
          "react": {
            "version": "16.13.1"
          }
-       },
+       }
      },
      
 Note: Even if you aren't using React in the project (for example, your API), add this to suppress a warning.
