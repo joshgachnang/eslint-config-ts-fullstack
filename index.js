@@ -52,7 +52,7 @@ module.exports = {
 
     // disallow declaration of variables already declared in the outer scope
     // NOTE: no-shadow fails with Typescript enums, so we have to use the TS version.
-    "@typescript-eslint/no-shadow": "error"
+    "@typescript-eslint/no-shadow": "error",
     "no-shadow": "off",
 
     // disallow shadowing of names such as arguments
