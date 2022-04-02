@@ -33,7 +33,6 @@ module.exports = {
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-var-require": "off",
-
     // Intelligently sort imports
     "simple-import-sort/imports": "error",
 
@@ -52,7 +51,9 @@ module.exports = {
     /*  General Readability */
 
     // disallow declaration of variables already declared in the outer scope
-    "no-shadow": "error",
+    // NOTE: no-shadow fails with Typescript enums, so we have to use the TS version.
+    "@typescript-eslint/no-shadow": "error"
+    "no-shadow": "off",
 
     // disallow shadowing of names such as arguments
     "no-shadow-restricted-names": "error",
