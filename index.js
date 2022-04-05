@@ -18,6 +18,7 @@ module.exports = {
     "simple-import-sort",
     "react",
     "react-native",
+    "@typescript-eslint",
   ],
   extends: [
     "plugin:react/recommended",
